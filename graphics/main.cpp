@@ -24,7 +24,7 @@ int value;  //indicates progress
 
 float stonks[winX] = {};
 float next = winY / 2;
-Uint16 seed = 2;
+Uint16 seed = time(0);
 
 float pow(float base, int exponent) {
     float answer = base;
